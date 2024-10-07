@@ -53,7 +53,7 @@ ul {
     display: flex;
     font-size: 48px;
     color: #F9FAF8;
-    weight: 900;
+    font-weight: 900;
 }
 
 .subtext {
@@ -65,7 +65,10 @@ ul {
 button {
     background-color: rgb(49, 87, 181);
     color: white;
-    width: 70px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 6px;
 }
 
 img {
@@ -76,7 +79,7 @@ img {
 }
 
 .information {
-    background-color; white;
+    background-color: white;
 }
 
 .info {
@@ -106,8 +109,8 @@ img {
 .text {
     display: flex;
     text-align: center;
-    flex-direction: column;
     width: 120px;
+    
 }
 
 .under {
@@ -116,4 +119,27 @@ img {
     gap: 45px;
     padding-top: 5px;
     
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.thor {
+    display: flex;
+    padding-left: 50%;
+    font-weight: bold;
 }
